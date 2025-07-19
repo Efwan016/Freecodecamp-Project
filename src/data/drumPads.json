@@ -1,0 +1,11 @@
+[
+    { "key": "Q", "sound": "https://s3.amazonaws.com/freecodecamp/drums/Heater-1.mp3", "label": "Heater 1"},
+    { "key": "W", "sound": "https://s3.amazonaws.com/freecodecamp/drums/Heater-1.mp3", "label": "Heater 2"},
+    { "key": "E", "sound": "https://s3.amazonaws.com/freecodecamp/drums/Heater-1.mp3", "label": "Heater 3"},
+    { "key": "A", "sound": "https://s3.amazonaws.com/freecodecamp/drums/Heater-1.mp3", "label": "Heater 4"},
+    { "key": "S", "sound": "https://s3.amazonaws.com/freecodecamp/drums/Heater-1.mp3", "label": "clap"},
+    { "key": "D", "sound": "https://s3.amazonaws.com/freecodecamp/drums/Heater-1.mp3", "label": "Open HH"},
+    { "key": "Z", "sound": "https://s3.amazonaws.com/freecodecamp/drums/Heater-1.mp3", "label": "Kick-n' Hat"},
+    { "key": "X", "sound": "https://s3.amazonaws.com/freecodecamp/drums/Heater-1.mp3", "label": "Kick"},
+    { "key": "C", "sound": "https://s3.amazonaws.com/freecodecamp/drums/Heater-1.mp3", "label": "Closed HH"}
+]
