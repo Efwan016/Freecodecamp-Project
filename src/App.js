@@ -3,6 +3,7 @@ import QuotesMachine from "./pages/QuotesMachine";
 import DrumMachine from "./pages/DrumMachine";
 import Header from "./pages/Header";
 import './App.css';
+import MarkdownPreviewer from "./pages/MarkdownPreviewer";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <Route path="*" element={<Header />}>
         <Route index element={<QuotesMachine />} />
         <Route path="drum" element={<DrumMachine />} />
+        <Route path="markdown" element={<MarkdownPreviewer />} />
       </Route>
     </Routes>
   );

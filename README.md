@@ -1,70 +1,72 @@
-# Getting Started with Create React App
+🧠 FreeCodeCamp React Projects by Efwan
+This repository contains a collection of React.js projects built as part of the FreeCodeCamp Frontend Libraries Certification. All projects are combined into a single React app, with navigation between pages.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+🛠️ Built With
+React.js (CRA / Vite)
 
-## Available Scripts
+JavaScript
 
-In the project directory, you can run:
+CSS
 
-### `npm start`
+marked library (for Markdown Previewer)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+FontAwesome & Google Fonts
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+🚀 Live Demo
+👉 Click here to try it live (https://freecodecamp-project-phi.vercel.app/)
 
-### `npm test`
+📄 Projects Overview
+🎧 Drum Machine
+A virtual drum pad that plays different sounds when buttons are clicked or keys are pressed. Each sound has a label and updates the display area.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+User Stories Fulfilled:
 
-### `npm run build`
+Press a key or click to play a sound
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Display the sound name
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Styled with custom layout
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+💬 Random Quote Machine
+Displays a random quote and author, and allows users to tweet the quote.
 
-### `npm run eject`
+User Stories Fulfilled:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Show random quotes
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Refresh with new quotes
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Tweet quote button
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Styled with color changes
 
-## Learn More
+📝 Markdown Previewer
+A real-time Markdown previewer that converts Markdown syntax into HTML using the marked library.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+User Stories Fulfilled:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Input Markdown in textarea
 
-### Code Splitting
+Output formatted HTML
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Live preview as you type
 
-### Analyzing the Bundle Size
+📁 Folder Structure
+src/
+├── components/
+│   ├── DrumMachine.jsx
+│   ├── QuoteMachine.jsx
+│   ├── MarkdownPreviewer.jsx
+│   └── Navbar.jsx
+├── App.jsx
+├── index.js
+└── styles/
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+🧑‍💻 Author
+Efwan Rizaldi  
+- [GitHub](https://github.com/Efwan016)  
+- [LinkedIn](https://www.linkedin.com/in/efwanrizaldi)
 
-### Making a Progressive Web App
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+📜 License
+This project is open source and available under the MIT License.

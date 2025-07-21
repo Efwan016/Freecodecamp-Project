@@ -99,3 +99,22 @@
   font-style: italic;
 }
 
+/* Markdown */
+.markdown-container {
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+}
+#editor {
+  width: 50%;
+  height: 400px;
+  padding: 10px;
+}
+#preview {
+  width: 50%;
+  height: 400px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  overflow: auto;
+  background-color: #f9f9f9;
+}

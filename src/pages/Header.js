@@ -6,6 +6,7 @@ const Header = () => {
       <nav>
         <Link to="/">Quote</Link>
         <Link to="/drum">Drum Machine</Link>
+        <Link to="/Markdown">Markdown Previewer</Link>
       </nav>
 
       <main>
