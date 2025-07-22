@@ -118,3 +118,51 @@
   overflow: auto;
   background-color: #f9f9f9;
 }
+
+/* Podomoro */
+.clock-container {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  padding: 2rem;
+}
+
+.length-controls, .controls {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin: 1rem 0;
+}
+
+.timer {
+  font-size: 3rem;
+  margin: 1.5rem 0;
+}
+
+button {
+  padding: 0.5rem 1rem;
+  margin: 0.2rem;
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.controls button:hover {
+  color: black;
+}
+.controls button::after {
+  content: "";
+  background: linear-gradient(#f7f4ef, #cfc8bb, #7a7a7a);
+  position: absolute;
+  z-index: -1;
+  left: 20%;
+  right: 20%;
+  top: 0;
+  bottom: 0;
+  transform: skewX(-45deg) scale(0, 1);
+  transition: all 0.5s;
+}
+.controls button:hover::after {
+  transform: skewX(-45deg) scale(1, 1);
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
