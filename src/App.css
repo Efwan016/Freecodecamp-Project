@@ -7,6 +7,7 @@ body {
 .App {
   position: relative;
   overflow: hidden;
+  padding: 20px;
 }
 nav {
   background: linear-gradient(90deg, #667eea, #764ba2); 
@@ -24,10 +25,94 @@ nav {
 nav a {
   color: white;
   text-decoration: none;
-  padding: 0 1rem; /* Tambahkan jarak horizontal antar link */
+  padding: 0 1rem; 
 }
 
 nav a:hover {
   text-decoration: underline;
+}
+
+footer {
+  color: #000000;
+  padding: 2rem 0;
+  font-size: 0.9rem;
+  position: absolute;
+  text-align: center;
+  position: relative;
+  z-index: 1;
+}
+
+footer .social-links {
+  list-style: none;
+  margin: 0 0 1rem;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+footer .social-links li a {
+  color: #fff;
+  font-size: 1.4rem;
+  transition: color 0.3s;
+}
+
+footer .social-links li a:hover {
+  color: #000000; 
+}
+
+footer .copyright {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  color: #000000;
+  font-size: 0.85rem;
+}
+
+footer .copyright li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+footer a {
+  color: #ff1f1f;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+#go-top {
+  position: absolute;
+  right: 20px;
+  bottom: 20px;
+}
+
+#go-top a {
+  color: #fff;
+  font-size: 1.5rem;
+  transition: all 0.3s ease;
+}
+
+#go-top a:hover {
+  color: #1fa2ff;
+  transform: translateY(-5px);
+}
+
+@media (max-width: 600px) {
+  footer .social-links {
+    flex-direction: column;
+  }
+
+  footer .copyright li {
+    display: block;
+    margin: 5px 0;
+  }
+
+  #go-top {
+    right: 10px;
+    bottom: 10px;
+  }
 }
 

@@ -5,7 +5,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  padding-top: 0px; /* space buat navbar */
+  padding-top: 10px; /* space buat navbar */
   box-sizing: border-box;
   flex-direction: column;
 }
@@ -13,9 +13,9 @@
 
 #quote-box {
   background: white;
-  padding: 1.5rem;
+  padding: 0.5rem;
   border-radius: 10px;
-  width: 80%;
+  width: 100%;
   max-width: 500px;
   box-shadow: 0px 0px 20px rgba(0,0,0,0.2);
   display: flex;
@@ -40,9 +40,12 @@
   align-items: center;
 }
 
+#tweet-quote:hover, #new-quote:hover {
+  background: lightcoral;
+}
 #tweet-quote {
   color: white;
-  background-color: #1DA1F2;
+  background-color: #009dfe;
   padding: 10px 15px;
   border-radius: 5px;
   text-decoration: none;
@@ -166,3 +169,4 @@ button {
   -webkit-transition: all 0.5s;
   transition: all 0.5s;
 }
+
